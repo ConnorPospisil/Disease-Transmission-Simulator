@@ -42,7 +42,7 @@ Originally developed as a course project for Introduction to Computer Science (C
 - **Intervention layering**: Multiple protections compound to reduce transmission
 
 ### Technical Highlights
-- **Clean, documented code**: Professional docstrings following PEP 257 standards
+- **Clean code**: Code following traditional standards
 - **Configurable scenarios**: External configuration files for reproducible experiments
 - **Automated visualization**: Publication-quality epidemic curves with matplotlib
 - **Modular design**: Clear separation of concerns for easy modification
@@ -207,7 +207,7 @@ Heterogeneous mixing with vulnerable populations.
 **Configuration:**
 - **Population**: 4 subgroups (60, 20, 15, 5) - Community, Healthcare, Nursing Home, Hospital
 - **Interventions**: Moderate vaccination (40%), high masking (60%)
-- **Transmission**: Moderate exposed (35%), VERY HIGH infected (99%)
+- **Transmission**: Moderate exposed (35%), HIGH infected (70%)
 - **Recovery immunity**: 20%
 - **Mixing matrix**: Models isolation of vulnerable groups
 
@@ -502,7 +502,7 @@ The simulator automatically generates a professional graph showing:
 
 This project provided hands-on experience with:
 
-- **Agent-based modeling**: Understanding how individual behaviors create population-level phenomena
+- **Agent-based modeling**: Understanding how individual behaviors create population-level characteristics
 - **Epidemiological concepts**: Disease progression, interventions, attack rates, epidemic curves
 - **Data structures**: Using dictionaries, sets, and tuples to represent complex agent states
 - **Algorithm design**: Creating flexible sampling functions that handle multiple input types
@@ -513,21 +513,7 @@ This project provided hands-on experience with:
 
 This was my first significant "data analysis" project, and it sparked an interest in how programming can model and understand complex real-world systems.
 
----
-
-## Requirements
-
-- Python 3.x
-- matplotlib >= 3.5.0
-
-Install with:
-```bash
-pip install -r requirements.txt
-```
-
----
-
-## Usage Tips
+## A Few Usage Tips If Running The Code
 
 **For reproducible results:**
 ```python
@@ -569,14 +555,14 @@ While the current simulator is feature-complete for its scope, potential extensi
 
 ## License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the MIT License
 
 ---
 
 ## Author
 
-**Connor** (pospsl)  
-Computer Science Student  
+**Connor Pospisil** (pospsl)  
+Computer Science Student at the University of Iowa  
 *Developed as an enhanced final project for CS1210: Introduction to Computer Science*
 
 ---
@@ -590,10 +576,4 @@ Computer Science Student
 
 ---
 
-## Contact
-
-Questions, suggestions, or collaboration opportunities? Feel free to reach out or open an issue!
-
----
-
-*This simulator is for educational and demonstration purposes. It is a simplified model and should not be used for actual public health decision-making.*
+*This simulator is just for my learning. It is a simplified model.*
